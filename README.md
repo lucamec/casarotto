@@ -1,1 +1,4 @@
-# casarotto
+# Sito personale
+Caricare tutti i file nella root del repository, inclusa la cartella nascosta .github. Settings → Pages → Deploy from a branch → main → / (root). Il sito sarà su https://lucamec.github.io/casarotto/ oppure, rinominando il repository lucamec.github.io, alla root.
+
+La bibliografia iniziale contiene due record verificati. Actions → Aggiorna pubblicazioni AIR → Run workflow avvia il tentativo di sincronizzazione giornaliera. Il parser usa la pagina pubblica AIR per autore (rp02823), non una API ufficiale; non è stato testato su una risposta HTTP dal server. Se il parser fallisce, il JSON precedente rimane invariato. Verificare il log della prima esecuzione e il numero di risultati. I commit effettuati con GITHUB_TOKEN possono non attivare Pages: per pubblicare uno snapshot nuovo, effettuare un commit manuale oppure configurare un workflow Pages dedicato. Il link diretto AIR funziona indipendentemente dalla sincronizzazione. Nessun logo ufficiale o fotografia non autorizzata è incluso. Fonti: https://iuav.unifind.cineca.it/get/person/004039 e https://air.iuav.it/browse?authority=rp02823&type=author e https://drin.design/lucacasarotto/.
